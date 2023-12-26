@@ -23,7 +23,7 @@ class SecondViewController: UIViewController {
     
     func setupButton() {
             dataButton.setTitle("Передать пиццу на третий экран", for: .normal)
-            dataButton.backgroundColor = UIColor.systemGray6
+            dataButton.backgroundColor = UIColor.systemBlue
             dataButton.layer.cornerRadius = 20
             dataButton.addTarget(self, action: #selector(sendData), for: .touchUpInside)
             dataButton.frame = CGRect(x: Int(UIScreen.main.bounds.size.width/2) - 270/2, y: 200, width: 300, height: 200)
