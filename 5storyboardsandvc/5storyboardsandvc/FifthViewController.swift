@@ -22,7 +22,7 @@ class FifthViewController: UIViewController {
        
        func setupDataLabel() {
            dataLabel.textColor = UIColor.black
-           dataLabel.frame = CGRect(x: Int(UIScreen.main.bounds.size.width/2) - 170/2, y: 200, width: 170, height: 60)
+           dataLabel.frame = CGRect(x: Int(UIScreen.main.bounds.size.width/2) - 170/2, y: 200, width: 300, height: 200)
            dataLabel.text = data
        }
        

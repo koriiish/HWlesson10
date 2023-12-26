@@ -21,9 +21,9 @@ class ThirdViewController: UIViewController {
     func setupButton() {
            dataButton.setTitle("Передать пиццу на четвёртый экран", for: .normal)
            dataButton.backgroundColor = UIColor.systemPurple
-           dataButton.layer.cornerRadius = 20
+           dataButton.layer.cornerRadius = 30
            dataButton.addTarget(self, action: #selector(sendData), for: .touchUpInside)
-           dataButton.frame = CGRect(x: Int(UIScreen.main.bounds.size.width/2) - 290/2, y: 200, width: 290, height: 60)
+           dataButton.frame = CGRect(x: Int(UIScreen.main.bounds.size.width/2) - 290/2, y: 200, width: 300, height: 200)
        }
        
        
