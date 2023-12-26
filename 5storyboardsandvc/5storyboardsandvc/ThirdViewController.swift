@@ -31,7 +31,7 @@ class ThirdViewController: UIViewController {
            self.view.addSubview(dataButton)
        }
     @objc func sendData() {
-           let storyboard = UIStoryboard(name: "FourthViewController", bundle: nil)
+           let storyboard = UIStoryboard(name: "ForthViewController", bundle: nil)
            let forthVC = storyboard.instantiateViewController(withIdentifier: "ForthViewController") as! ForthViewController
         forthVC.modalPresentationStyle = .fullScreen
         forthVC.data = self.data

@@ -21,7 +21,7 @@ class FifthViewController: UIViewController {
    
        
        func setupDataLabel() {
-           dataLabel.textColor = UIColor.black
+           dataLabel.textColor = UIColor.systemPink
            dataLabel.frame = CGRect(x: Int(UIScreen.main.bounds.size.width/2) - 170/2, y: 200, width: 300, height: 200)
            dataLabel.text = data
        }
@@ -29,4 +29,5 @@ class FifthViewController: UIViewController {
        func addSubviews() {
            view.addSubview(dataLabel)
        }
+  
 }

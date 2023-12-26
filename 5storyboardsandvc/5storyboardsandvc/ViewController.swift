@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
         
-        let data = "Переданные данные"
+        let data = "Переданная пицца"
         let dataButton = UIButton(type: .system)
         var pizza = Pizza()
     
